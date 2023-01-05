@@ -1,0 +1,27 @@
+body{
+    background-size:50%;
+    background-image: url(https://media.istockphoto.com/id/451046873/vector/number-background.jpg?s=612x612&w=0&k=20&c=GGgeMWt-nrm5HLBni2haWYToEwmYyNmfffRsthYvEvw=);
+}
+
+.img-style
+{
+    border: 3px solid red;
+    padding:2px;
+    width: 500px;
+    height: 500px;
+}
+
+.input-box{
+    flex: none;
+}
+.mother
+{
+    background-color: white;
+}
+@media screen and (max-width: 48rem) {
+    .img-style
+    {
+        width: 300px;
+        height: 300px;
+    }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">   
+    <link rel="stylesheet" href="style.css">
+    <title>NumberGuessingGame</title>
+</head>
+<body>
+    
+    <div class="container text-center border mt-4 mother">
+        <h1>Number Guessing Game!</h1>
+        <div class="container mt-3">
+            <div>you need to figure out a given number!</div>
+            <br>
+            <h3>GOOD LUCK TO YOU!</h3>
+            <div class="container ">
+                <div class="text-center">
+                    <img id="images-area" src="./images/reset.gif" class="rounded img-style" alt="...">
+                  </div>
+                <div id="user-result">Put number please</div>
+                <div id="chance-left">Chance: 5</div>
+                <div id="guessed-numbers">Your numbers</div>
+                <div id="random-number">the number will appear at here</div>
+            </div>
+            <div class="container pt-5">
+                
+                <div class="input-group mb-3 input-box">
+                    <input type="number" id="user-input" class="form-control input-box" placeholder="Put any numbers">
+                    <button type="button" id="guess-button" class="btn btn-dark">Go!</button>
+                    
+                </div>
+                
+                <button type="button" id="reset-button" class="btn btn-danger">Reset</button>
+
+
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
